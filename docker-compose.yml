@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: Naresh
+      POSTGRES_PASSWORD: Naresh12345
+      POSTGRES_DB: parkingDB
+    ports:
+      - "5432:5432"
+
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_USER: Naresh
+      DB_PASSWORD: Naresh12345
+      DB_NAME: parkingDB
