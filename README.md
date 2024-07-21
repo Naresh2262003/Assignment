@@ -31,13 +31,13 @@ A RESTful service for managing parking lot operations using Go, Echo, and Postgr
    ```sh
    docker-compose up --build
 
-Database Initialization
-The database is initialized with default data on startup.
+## Database Initialization
+**The database is initialized with default data on startup.**
 
-API Endpoints
-GET /park/available: List available spots.
-POST /park: Park a vehicle.
-POST /unpark: Unpark a vehicle and calculate the fee.
+## API Endpoints
+**GET /park/available:** List available spots.
+**POST /park:** Park a vehicle.
+**POST /unpark:** Unpark a vehicle and calculate the fee.
 
-License
-MIT License - see LICENSE for details.
+## License
+**MIT License - see LICENSE for details.**
