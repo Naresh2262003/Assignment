@@ -30,7 +30,7 @@ A RESTful service for managing parking lot operations using Go, Echo, and Postgr
 
 1. **Clone the repository:**
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/Naresh2262003/Assignment
    cd <repository-directory>
 
 2. **Start services:**
