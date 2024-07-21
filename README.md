@@ -7,17 +7,23 @@ A RESTful service for managing parking lot operations using Go, Echo, and Postgr
 - **`db/`**: Database-related functionality
   - `db.go`: Database connection and setup.
   - `init_data.go`: Initializes default data in the database.
+  
 - **`handler/`**: HTTP request handlers
   - `parking_lot_handler.go`: Handles parking and un-parking requests.
+
 - **`models/`**: Data models
   - `parking_lot.go`: Model for the parking lot.
   - `parking_ticket.go`: Model for parking tickets.
   - `spot.go`: Model for parking spots.
   - `tariff.go`: Model for parking tariffs.
   - `vehicle_type.go`: Model for vehicle types.
+
 - **`docker-compose.yml`**: Sets up PostgreSQL and the application.
+
 - **`Dockerfile`**: Build configuration for the application.
+
 - **`main.go`**: Application entry point.
+
 - **`go.mod`** & **`go.sum`**: Go module files.
 
 ## Getting Started
